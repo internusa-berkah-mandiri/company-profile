@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Placeholder Generator</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #0066cc;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .instructions {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        .placeholder-list {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .placeholder-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .placeholder-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .placeholder {
+            background-color: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .placeholder-info {
+            margin-top: 10px;
+        }
+        .placeholder-info p {
+            margin: 5px 0;
+        }
+        .placeholder-info code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>PowerTech Solutions - Image Placeholders</h1>
+    
+    <div class="instructions">
+        <h2>Instructions</h2>
+        <p>This page provides placeholder images for the PowerTech Solutions website. In a production environment, these placeholders should be replaced with actual images related to electrical construction services.</p>
+        <p>For each section of the website, we recommend using high-quality, professional images that showcase your electrical construction services, products, projects, and team.</p>
+        <p>You can use services like Unsplash, Pexels, or hire a professional photographer to capture images of your actual projects and team.</p>
+    </div>
+    
+    <div class="placeholder-list">
+        <h2>Required Images</h2>
+        
+        <div class="placeholder-item">
+            <h3>Hero Background</h3>
+            <div class="placeholder" style="height: 300px; width: 100%;">
+                hero-bg.jpg
+            </div>
+            <div class="placeholder-info">
+                <p><strong>Filename:</strong> hero-bg.jpg</p>
+                <p><strong>Dimensions:</strong> 1920x1080px (16:9 ratio)</p>
+                <p><strong>Description:</strong> A high-quality image showing electrical construction work, power lines, or an impressive electrical installation. This image will be darkened with an overlay to ensure text readability.</p>
+                <p><strong>HTML Reference:</strong> <code>url('images/hero-bg.jpg')</code> in CSS</p>
+            </div>
+        </div>
+        
+        <div class="placeholder-item">
+            <h3>About Image</h3>
+            <div class="placeholder" style="height: 250px; width: 100%;">
+                about-image.jpg
+            </div>
+            <div class="placeholder-info">
+                <p><strong>Filename:</strong> about-image.jpg</p>
+                <p><strong>Dimensions:</strong> 800x600px</p>
+                <p><strong>Description:</strong> An image of your team or electricians working on a project. This should convey professionalism and expertise.</p>
+                <p><strong>HTML Reference:</strong> <code>&lt;img src="images/about-image.jpg" alt="PowerTech Solutions Team"&gt;</code></p>
+            </div>
+        </div>
+        
+        <div class="placeholder-item">
+            <h3>Product Images (4 required)</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <div class="placeholder" style="height: 150px;">
+                    product-switchgear.jpg
+                </div>
+                <div class="placeholder" style="height: 150px;">
+                    product-lighting.jpg
+                </div>
+                <div class="placeholder" style="height: 150px;">
+                    product-automation.jpg
+                </div>
+                <div class="placeholder" style="height: 150px;">
+                    product-generators.jpg
+                </div>
+            </div>
+            <div class="placeholder-info">
+                <p><strong>Filenames:</strong></p>
+                <ul>
+                    <li>product-switchgear.jpg</li>
+                    <li>product-lighting.jpg</li>
+                    <li>product-automation.jpg</li>
+                    <li>product-generators.jpg</li>
+                </ul>
+                <p><strong>Dimensions:</strong> 400x300px each</p>
+                <p><strong>Description:</strong> Images of your electrical products including switchgear, LED lighting, building automation systems, and generators.</p>
+            </div>
+        </div>
+        
+        <div class="placeholder-item">
+            <h3>Project Images (4 required)</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <div class="placeholder" style="height: 150px;">
+                    project-commercial.jpg
+                </div>
+                <div class="placeholder" style="height: 150px;">
+                    project-industrial.jpg
+                </div>
+                <div class="placeholder" style="height: 150px;">
+                    project-renewable.jpg
+                </div>
+                <div class="placeholder" style="height: 150px;">
+                    project-residential.jpg
+                </div>
+            </div>
+            <div class="placeholder-info">
+                <p><strong>Filenames:</strong></p>
+                <ul>
+                    <li>project-commercial.jpg</li>
+                    <li>project-industrial.jpg</li>
+                    <li>project-renewable.jpg</li>
+                    <li>project-residential.jpg</li>
+                </ul>
+                <p><strong>Dimensions:</strong> 600x400px each</p>
+                <p><strong>Description:</strong> Images of your completed projects in commercial, industrial, renewable energy, and residential settings.</p>
+            </div>
+        </div>
+        
+        <div class="placeholder-item">
+            <h3>Testimonial Background</h3>
+            <div class="placeholder" style="height: 200px; width: 100%;">
+                testimonial-bg.jpg
+            </div>
+            <div class="placeholder-info">
+                <p><strong>Filename:</strong> testimonial-bg.jpg</p>
+                <p><strong>Dimensions:</strong> 1920x1080px</p>
+                <p><strong>Description:</strong> A subtle background image related to electrical work. This will be darkened significantly with an overlay to ensure text readability.</p>
+                <p><strong>HTML Reference:</strong> <code>url('images/testimonial-bg.jpg')</code> in CSS</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Add text to empty placeholders
+        document.querySelectorAll('.placeholder').forEach(placeholder => {
+            if (!placeholder.textContent.trim()) {
+                placeholder.textContent = 'Image Placeholder';
+            }
+        });
+    </script>
+</body>
+</html>
